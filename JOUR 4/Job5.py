@@ -1,6 +1,6 @@
-L = [1,2,3,7,9]
-
+L= [i for i in range(5)]
 print(L[1])
+
 def remplace():
     L.insert(3, L[2]+L[4])
     L.remove(L[4])
